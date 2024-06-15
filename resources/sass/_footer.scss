@@ -1,0 +1,29 @@
+footer {
+    background-color: #8B0000; /* Colore rosso scuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1170px;
+    margin: auto;
+  }
+  
+  .footer-logo {
+    display: block;
+    margin: 0 auto;
+    width: 100px; /* Regola la larghezza secondo necessità */
+  }
+  
+  .footer-info h2,
+  .footer-info p {
+    margin: 5px 0;
+  }
+  
+  /* Aggiungi ulteriori stili come font, dimensioni, ecc., secondo necessità */
+  .my-style-foot{
+    position: relative;
+    bottom: 0;
+    left: 0;
+}

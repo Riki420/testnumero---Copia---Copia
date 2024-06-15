@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "name": "Antipasto Cocci Caldi",
+        "price": "14",
+        "desc": "Tre cocci caldi con Fegatini alla Toscana, Formaggi fusi con Tartufo Nero Scorzone, Fughi Misti in Umido Porcini, Galletti e Chiodini il tutto accompagnato da Polentine Fritte e Pane caldo alla griglia."
+    },
+    {
+        "id": 2,
+        "name": "Tortelli di Patate al Ragù",
+        "price": "10",
+        "desc": "Tortelli fatti in casa con ripieno di Patate conditi con Ragù alla Bolognese."
+    },
+    {
+        "id": 3,
+        "name": "Tortelli di Patate alle Noci",
+        "price": "14",
+        "desc": "Tortelli fatti in casa ripieni di Patate condito con salsa alle Noci."
+    },
+    {
+        "id": 4,
+        "name": "Tortelli di Patate ai Funghi Porcini",
+        "price": "10",
+        "desc": "Tortelli fatti in casa ripieni di Patate con Funghi Porcini."
+    },
+    {
+        "id": 5,
+        "name": "Tortelli di Patate ai Prugnoli",
+        "price": "14",
+        "desc": "Tortelli fatti in casa ripieni di Patate con Funghi Prugnoli (piatto di stagione)."
+    },
+    {
+        "id": 6,
+        "name": "Tortelli di Ricotta e Ortica Burro e Salvia",
+        "price": "10",
+        "desc": "Tortelli fatti in casa con Sfoglia Verde e ripieni di Ricotta conditi con Burro e Salvia."
+    },
+    {
+        "id": 7,
+        "name": "Lasagne alla Bolognese",
+        "price": "10",
+        "desc": "Lasagne fatte con Sfoglia Verde, Besciamella e Ragù alla Bolognese."
+    },
+    {
+        "id": 8,
+        "name": "Tagliatelle con il Cervo",
+        "price": "14",
+        "desc": "Tagliatelle fatte in casa con Cervo in Umido."
+    },
+    {
+        "id": 9,
+        "name": "Tagliatelle al Ragù",
+        "price": "10",
+        "desc": "Tagliatelle fatte in casa condite con Ragù alla Bolognese"
+    },
+    {
+        "id": 10,
+        "name": "Tagliatelle ai Prugnoli",
+        "price": "14",
+        "desc": "Tagliatelle fatte in casa con Funghi Prugnoli (piatto di stagione)."
+    },
+    {
+        "id": 11,
+        "name": "Polenta Morbida al Ragù",
+        "price": "10",
+        "desc": "Polenta Morbida accompagnata da Ragù alla Bolognese."
+    },
+    {
+        "id": 12,
+        "name": "Polenta Morbida con Cervo",
+        "price": "10",
+        "desc": "Polenta Morbida accompagnata da Cervo in Umido."
+    },
+    {
+        "id": 13,
+        "name": "Polenta Morbida con Funghi",
+        "price": "14",
+        "desc": "Polenta Morbida accompagnata da Funghi Misti in Umido Porcini, Galletti e Chiodini"
+    },
+    {
+        "id": 14,
+        "name": "Piatto Unico del Pellegrino",
+        "price": "10",
+        "desc": "Polenta Morbida con Cervo in Umido e Funghi Misti in Umido (Porcini,Galletti e Chiodini)."
+    }
+
+]

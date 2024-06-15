@@ -1,0 +1,196 @@
+/********** TOGGLE STYLE  
+//Toggle Input for Dashboard Plates
+.switch {
+    width: 80px;
+    height: 30px;
+    position: relative;
+}
+
+.switch input {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.switch label {
+    display: block;
+    width: 80%;
+    height: 95%;
+    position: relative;
+    background: #fff;
+    border-radius: 30px 30px 30px 30px;
+    transition: all 0.5s ease;
+}
+.switch input ~ label i {
+    display: block;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    transform: translate(0%, -50%);
+    left: 0%;
+    top: 50%;
+    z-index: 2;
+    border-radius: inherit;
+    background-color: #a71a07; 
+    transition: all 0.5s ease;
+}
+
+.switch label + span {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    top: 5px;
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    background: #a02101;
+    transition: all 0.5s ease;
+    z-index: 2;
+}
+
+/* Toggle*/
+/*
+.switch input:checked ~ label + span {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    z-index: 2;
+    background: #009600;
+}
+
+.switch input:checked ~ label i {
+    left: auto;
+    left: 63%;
+    background-color: #216821;
+    transition: all 0.5s ease;
+}
+
+/* Bootstrap Breakpoints 
+
+
+
+
+@media (max-width: 576px) {
+    /* Extra small devices (portrait phones, less than 576px) 
+    .switch {
+        width: 60px; /* Larghezza adeguata per dispositivi extra small 
+        height: 22px; /* Altezza proporzionale 
+    }
+    .switch input ~ label i {
+        width: 20px; /* Dimensione adeguata per il cerchio interno 
+        height: 20px;
+    }
+    .switch label + span {
+        width: 14px; /* Dimensione adeguata per il cerchio esterno 
+        height: 14px;
+        left: 60px; /* Posizione adeguata per il cerchio esterno 
+        position: absolute;
+        top: 2px;
+    }
+    
+}
+*/
+
+/********** TOGGLE STYLE  **********/
+
+/* Toggle Input for Dashboard Plates */
+.switch {
+    width: 80px;
+    height: 30px;
+    position: relative;
+}
+
+.switch input {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.switch label {
+    display: block;
+    width: 80%;
+    height: 95%;
+    position: relative;
+    background: #fff;
+    border-radius: 30px 30px 30px 30px;
+    transition: all 0.5s ease;
+}
+
+.switch input ~ label i {
+    display: block;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    transform: translate(0%, -50%);
+    left: 0%;
+    top: 50%;
+    z-index: 2;
+    border-radius: inherit;
+    background-color: #a71a07; /* Fallback */
+    transition: all 0.5s ease;
+}
+
+.switch label + span {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    top: 5px;
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    background: #a02101;
+    transition: all 0.5s ease;
+    z-index: 2;
+}
+
+/* Toggle */
+.switch input:checked ~ label + span {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    z-index: 2;
+    background: #009600;
+}
+
+.switch input:checked ~ label i {
+    left: auto;
+    left: 63%;
+    background-color: #216821;
+    transition: all 0.5s ease;
+}
+
+/* Bootstrap Breakpoints */
+@media (max-width: 576px) {
+    /* Extra small devices (portrait phones, less than 576px) */
+    .switch {
+        width: 60px; /* Larghezza adeguata per dispositivi extra small */
+        height: 22px; /* Altezza proporzionale */
+    }
+    .switch input ~ label i {
+        width: 20px; /* Dimensione adeguata per il cerchio interno */
+        height: 20px;
+    }
+}
